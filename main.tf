@@ -2,7 +2,7 @@ provider "aws" {
  region = "us-east-1" 
 }
 resource "aws_lightsail_instance" "server1" {
-  name = "dev-server"
+  name = "dev-server1"
   blueprint_id = "ubuntu_18_04"
   bundle_id = "medium_1_0"
   availability_zone = "us-east-1"
