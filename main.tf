@@ -1,3 +1,6 @@
+provider "aws" {
+ region = "us-east-1" 
+}
 resource "aws_lightsail_instance" "server1" {
   name = "dev-server"
   blueprint_id = "ubuntu_18_04"
